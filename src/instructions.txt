@@ -1,0 +1,6 @@
+The files in this folder contain the source code to create two binary programs:
+
+1.  consprep
+2.  snvcounts
+
+To compile: download all files and run the build.sh script in the same directory as the files.
