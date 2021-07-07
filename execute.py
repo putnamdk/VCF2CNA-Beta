@@ -28,7 +28,7 @@ def parseArguments():
 	parser.add_argument("-XmaxSf", help="Maximum X Scale Factor", type=str, default="1.50")
 	parser.add_argument("-R_Loc",    help="Path to R Program", type=str, default="")
 	parser.add_argument("-R_ScriptLoc", help="Path to RScript Program", type=str, default="")
-        parser.add_argument("-Assembly", help="Assembly to use (hg19, hg38)", type=str, default="hg19")
+	parser.add_argument("-Assembly", help="Assembly to use (hg19, hg38)", type=str, default="hg19")
 
 
 	# Parse arguments
