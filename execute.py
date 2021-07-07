@@ -50,7 +50,7 @@ def main(LineArgs):
 	XmaxSf     = LineArgs.XmaxSf
 	StartChr   = LineArgs.StartChr
 	EndChr     = LineArgs.EndChr
-        assembly   = LineArgs.Assembly
+	assembly   = LineArgs.Assembly
 
 	args=['./commandline.sh', filename, pathname, VcfOrder, DiploidChr, Median, MinSf, MaxSf, XminSf, XmaxSf, workdir, R_Loc, R_ScriptLoc, StartChr, EndChr, assembly]
 
